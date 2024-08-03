@@ -1,0 +1,164 @@
+body{
+    background-color: #252B43;
+}
+
+/* Header */
+li{
+    list-style-type:none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+li:hover{
+    color:rgb(201, 0, 117);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap:50px;
+    font-family: Tahoma;
+    color:white;
+    margin-left: 60px;
+}
+
+.brand{
+    margin-left: 80px;
+    margin-right: 30px;
+    font-size: x-large;
+}
+
+.but{
+    margin-left: 200px;
+}
+
+.login{
+    background-color: transparent;
+    background-color:transparent;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+
+.join{
+    color:white;
+    background-color: #24A5F1;
+    border-radius: 3px;
+    border:none;
+    padding: 10px 20px;
+}
+
+button:hover{
+    color:rgb(0, 255, 157);
+    cursor: pointer;
+}
+
+/* Main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    font-family: Tahoma;
+}
+
+p,h1,h5{
+    text-align: center;
+    color: white;
+}
+
+h5{
+    color:#3285c5;
+}
+
+.Learnmore{
+    background-color: transparent;
+    border:solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-width: 2px;
+    color:#1771d1;
+}
+
+.Getqn{
+    background-color: rgb(0, 140, 255);
+    border:none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-width: 2px;
+    color:#ffffff;
+}
+
+img{
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.square{
+    text-align: left;
+    border:2px solid white;
+    background-color: white;
+    width: 200px;
+    height: 180px;
+    margin-top: 30px;
+}
+.square1{
+    text-align: left;
+    border:2px solid #22A6F0;
+    background-color: #22A6F0;
+    width: 200px;
+    height: 180px;
+    margin-top: 30px;
+}
+
+h6{
+    font-family: Tahoma;
+    display: inline;
+    margin-left: 20px;
+}
+
+hr{
+    height: 2px;
+    background-color: #A78082;
+    border: none;
+    width: 40px;
+    margin-right: 140px;
+}
+
+.pictext{
+    font-family: Tahoma;
+    font-size: 10px;
+    color: rgb(56, 56, 56);
+    text-align: left;
+    margin-left: 20px;
+}
+
+.pictures{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.midbox{
+    color: white;
+}
+
+.midboxhr{
+    background-color: white;
+}
+
+h6:hover{
+    color: #252B43;
+    cursor: pointer;
+}
